@@ -1,0 +1,28 @@
+
+version: 2
+
+sources:
+  - name: L3_CONSUMPTION       # schema name
+    database: SLEEKMART_OMS    # database name
+    tables:
+      - name: CUSTOMERS
+      - name: ORDERS
+      - name: ORDER_ITEMS
+      - name: PRODUCTS
+      - name: PRODUCT_CATEGORIES
+
+models:
+  - name: stg_orders
+    description: "Staging model for ORDERS table"
+
+  - name: stg_customers
+    description: "Staging model for CUSTOMERS table"
+
+  - name: stg_customerorder
+    description: "Staging model for CUSTOMERSORDER table"
+
+  - name: stg_order_items
+    description: "Staging model for ORDER_ITEMS table"
+
+  - name: stg_products
+    description: "Staging model for PRODUCTS table"

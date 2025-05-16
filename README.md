@@ -24,7 +24,7 @@ This project is ideal for organizations looking to:
 
 - **dbt (data build tool)**
 - **Snowflake** 
-
+- **SQL** 
 
 ## Structure
 
